@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="extentlisteners.ExtentListeners"></listener>
+        
+    </listeners>
+    
+<!--    <test verbose="2" preserve-order="true" name="Login Test">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_001_User_Login"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Navigate to store Test">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_002_Navigate_To_Store"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="Browse store's items test">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_003_Browse_Store_Items"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="Add Item to cart and clear cart test">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_004_Add_Items_To_Cart"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="Add Free Items into cart">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_005_Add_Free_Items"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Checkout the cart and pay the order">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_006_Checkout_And_Pay_Order"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Checkout, add new payment card">-->
+<!--        <classes>-->
+
+<!--            <class name="testcases.TC_007_Checkout_Add_New_Card"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="2" preserve-order="true" name="Checkout, add new delivery address">
+        <classes>
+
+            <class name="testcases.TC_008_Checkout_Add_Delivery_Address"></class>
+
+        </classes>
+    </test>
+</suite>
